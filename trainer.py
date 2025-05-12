@@ -42,7 +42,7 @@ from torchvision.datasets import MNIST
 
 from lightning.fabric import Fabric, seed_everything
 
-DATASETS_PATH = path.join(path.dirname(__file__), "..", "..", "..", "Datasets")
+DATASETS_PATH = path.join(path.dirname(__file__), "data")
 
 
 class Net(nn.Module):
