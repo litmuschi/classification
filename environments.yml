@@ -1,0 +1,26 @@
+name: fabric
+channels:
+  - conda-forge
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy=2.2.*
+  - pytorch=2.5.*
+  - lightning=2.5.*
+  - torchvision=0.20.*
+  - scikit-learn
+  - shapely
+  - hydra-core
+  - scikit-image
+  - tensorboard
+  - torchmetrics
+  - wandb
+  - opencv
+  - rich
+  - optuna
+  - matplotlib
+  - rootutils
+  - albumentations
+prefix: /Users/chi/.local/share/mamba/envs/fabric
